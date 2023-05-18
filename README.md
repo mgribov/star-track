@@ -39,4 +39,12 @@ The following steps are for MacOS systems
         4. fill-image.py
         5. kmeans_centroids.py /path/to/clean/images
 
-[track_the_stardust]: https://github.com/amnh/HackTheSolarSystem/wiki/Track-The-Stardust
+[track_the_stardust](https://github.com/amnh/HackTheSolarSystem/wiki/Track-The-Stardust)
+
+#### Note on center_mass.ipynb
+
+This notebook uses k-means to visualize the centers of mass of the impacts.
+
+It also uses [Gaussian Mixture Model](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95) to do the same, with better visualization.
+
+The code for GMM section came from this article: https://jakevdp.github.io/PythonDataScienceHandbook/05.12-gaussian-mixtures.html
